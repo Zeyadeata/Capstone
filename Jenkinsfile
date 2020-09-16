@@ -13,7 +13,7 @@ pipeline {
 			steps {
 				withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'dockerhub', usernameVariable: 'zeyadeata', passwordVariable: 'ZOpa$$w0rd!$$']]){
 					sh '''
-						docker build -t zeyadeata/capstone .
+					        sudo docker build -t zeyadeata/capstone .
 					'''
 				}
 			}
@@ -23,8 +23,8 @@ pipeline {
 			steps {
 				withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'dockerhub', usernameVariable: 'zeyadeata', passwordVariable: 'ZOpa$$w0rd!$$']]){
 					sh '''
-						docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
-						docker push zeyadeata/capstone
+						sudo docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+						sudo docker push zeyadeata/capstone
 					'''
 				}
 			}
