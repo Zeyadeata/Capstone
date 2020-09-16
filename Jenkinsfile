@@ -16,6 +16,9 @@ pipeline {
 						--nodes-max 3 \
 						--node-ami auto \
 						--region us-east-1 \
+	               				--zones us-east-1a \
+						--zones us-east-1b \
+						--zones us-east-1c \
 					'''
 				}
 			}
