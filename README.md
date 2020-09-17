@@ -31,7 +31,7 @@
 * Kubectl
 
 ## The files included are:
-```sh
+
 * /Images-of-result-deploy : Screenshot the result of deploy.
 * /Create-clusters-pipeline : CloudFormation Script of Cluster Pipeline file 
 * /Deploy-containers-pipeline : Deployment Script of Containers Pipeline file
