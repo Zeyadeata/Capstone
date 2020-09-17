@@ -32,9 +32,9 @@
 
 ## The files included are:
 
-* /Images-of-result-deploy : Screenshot the result of deploy.
-* /Create-clusters-pipeline : CloudFormation Script of Cluster Pipeline file 
-* /Deploy-containers-pipeline : Deployment Script of Containers Pipeline file
+* /Screenshots : Screenshot the result of deploy.
+* /Create-Clusters : CloudFormation Script of Cluster Pipeline file 
+* /Deploy-Containers : Deployment Script of Containers Pipeline file
 * Jenkinsfile : Jenkinsfile for Creating Pipeline
 * Dockerfile : Dockerfile for building the image 
 * green-controller.json : Create a replication controller green pod
